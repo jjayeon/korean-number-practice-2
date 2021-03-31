@@ -27,8 +27,8 @@
         "react": "^17.0.1",
         "react-dom": "^17.0.1"
     },
-    "name": "jjy-npm-template",
-    "description": "The various npm packages used by developer jjy (jjayeon).",
+    "name": "korean-number-practice-2",
+    "description": "A React app for practicing reading Korean numbers quickly. Version 2 with better UI.",
     "version": "1.0.0",
     "main": "src/index.js",
     "scripts": {
@@ -38,12 +38,12 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/jjayeon/jjy-npm-template.git"
+        "url": "git+https://github.com/jjayeon/korean-number-practice-2.git"
     },
     "author": "jjayeon",
     "license": "Unlicense",
     "bugs": {
-        "url": "https://github.com/jjayeon/jjy-npm-template/issues"
+        "url": "https://github.com/jjayeon/korean-number-practice-2/issues"
     },
-    "homepage": "https://github.com/jjayeon/jjy-npm-template#readme"
+    "homepage": "https://github.com/jjayeon/korean-number-practice-2#readme"
 }

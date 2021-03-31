@@ -1,6 +1,6 @@
-# jjy-npm-template
+# Korean Number Practice!
 
-A template npm project with some common packages installed and configured.
+A React app for practicing reading Korean numbers quickly. Version 2 with better UI. 
 
 ## packages:
 
@@ -13,3 +13,5 @@ Babel for Javascript wrangling.
 ESLint and Prettier for code formatting.
 
 Mocha for unit tests.
+
+React as framework.
