@@ -28,6 +28,17 @@ Input.propTypes = {
     value: PropTypes.string,
 };
 
+function Difficulty() {
+    return (
+        <form id="d">
+            <label htmlFor="nat">Native</label>
+            <input type="radio" name="nat" value="sino" />
+            <label htmlFor="sino">Sino-Korean</label>
+            <input type="radio" name="sino" value="sino" />
+        </form>
+    );
+}
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -105,6 +116,7 @@ class App extends Component {
         return (
             <div>
                 <h1>Korean Number Practice!</h1>
+                <Difficulty />
                 <Question text={this.state.question} />
                 <Input
                     handleChange={this.handleChange}
