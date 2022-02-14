@@ -61,7 +61,6 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                <h1>Korean Number Practice!</h1>
                 <My.Language
                     onChange={this.languageChange}
                     value={this.state.lang}
