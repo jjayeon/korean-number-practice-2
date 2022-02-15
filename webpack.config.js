@@ -35,10 +35,10 @@ module.exports = {
         }),
     ],
     devServer: {
-        contentBase: "./dist",
+        contentBase: "./build",
     },
     output: {
         filename: "main.js",
-        path: path.resolve(__dirname, "dist"),
+        path: path.resolve(__dirname, "build"),
     },
 };
